@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ricardo Hofstetter Dias - Desenvolvedor Frontend</title>
+  <title>Guilherme Barbosa Da Silva - Desenvolvedor Frontend</title>
 
   <link rel="stylesheet" href="src/css/font-awesome.css" />
   <link rel="stylesheet" href="src/css/reset.css" />
@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="src/css/secoes/home.css" />
   <link rel="stylesheet" href="src/css/secoes/sobre.css" />
   <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/flipbook.css">
   <link rel="stylesheet" href="src/css/secoes/projetos.css" />
   <link rel="stylesheet" href="src/css/secoes/footer.css" />
 
@@ -28,7 +29,7 @@
     <div class="container">
       <div class="row justify-content-between alinhar-itens-no-centro">
         <a href="#">
-          <h1 class="logo">RD</h1>
+          <h1 class="logo">GB</h1>
         </a>
         <nav>
           <input id="menu-hamburguer" type="checkbox" />
@@ -52,21 +53,21 @@
     <div class="container">
       <div class="row full-screen alinhar-itens-no-centro">
         <div class="texto-home">
-          <p>Olá 🖖,</p>
-          <h1>Sou o Ricardo Dias</h1>
+          <p>Olá 🖖</p>
+          <h1>Sou o Guilherme Barbosa Da Silva</h1>
           <h2>Desenvolvedor Frontend</h2>
 
           <div class="redes-sociais">
-            <a href="#" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
-            <a href="#" class="outer-shadow"><i class="fab fa-github"></i></a>
-            <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/guilherme-barbosa-33b900185/" target="_blank" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/5511969285896" target="_blank" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/Guilhermebsdourado" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/guilhermebarbosa911/" target="_blank" class="outer-shadow"><i class="fab fa-instagram"></i></a>
           </div>
         </div>
 
         <div class="img-home">
           <div class="img-box inner-shadow">
-            <img class="outer-shadow" src="src/imagens/foto-perfil.png" alt="foto do perfil do Ricardo" />
+            <img class="outer-shadow" src="src/imagens/self-Photoroom.png" alt="foto do perfil do Guilherme" />
           </div>
         </div>
       </div>
@@ -82,18 +83,18 @@
       <div class="row">
         <div class="imagem-sobre-mim">
           <div class="img-box inner-shadow">
-            <img src="src/imagens/foto-perfil.png" alt="foto sobre mim" class="outer-shadow" />
+            <img src="src/imagens/self-Photoroom.png" alt="foto sobre mim" class="outer-shadow" />
           </div>
         </div>
         <div class="informacoes-sobre-mim">
           <p>
-            <strong>Olá! Me chamo Ricardo Dias e sou um desenvolvedor frontend em
+            <strong>Olá! Me chamo Guilherme Barbosa e sou um desenvolvedor frontend em
               formação!</strong>
               Gosto MUITO da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
           </p>
 
           <p>
-           Estou sempre me desafiando coim novos projetos e participando de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já aprendi. 😁
+           Estou sempre me desafiando com novos projetos e participando de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já aprendi. 😁
           </p>
 
           <p>
@@ -170,6 +171,31 @@
     </div>
   </section>
 
+  <section class="flipBook">
+    <button id="prev-btn" class="button">
+      <i class="fas fa-arrow-circle-left"></i>
+    </button>
+
+    <div id="book" class="book">
+      <div id="p1" class="paper">
+        <div class="front">
+          <div id="f1" class="front-content">
+            <h1>Front 1</h1>
+          </div>
+        </div>
+        <div class="back">
+          <div id="b1" class="back-content">
+            <h1>Back 1</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button id="next-btn" class="button">
+      <i class="fas fa-arrow-circle-right"></i>
+    </button>
+  </section>
+
   <section class="projetos section" id="projetos">
     <div class="container">
       <div class="row">
@@ -180,8 +206,8 @@
 
       <div class="container-projetos">
         <div class="projeto">        
-          <a href="https://github.com">
-            <img src="https://via.placeholder.com/515X700" alt="Nome do projeto" />
+          <a href="https://github.com/Guilhermebsdourado/Novo-Landing-Page" target="_blank">
+            <img src="src/imagens/projeto1.png" alt="Nome do projeto" />
             <h3>Projeto 1</h3>
             <div class="informacoes-projeto">          
               <p>Projeto feito usando HTML, CSS e JavaScript</p>
@@ -191,8 +217,8 @@
         </div>
 
         <div class="projeto">        
-          <a href="https://github.com">
-            <img src="https://via.placeholder.com/515X700" alt="Nome do projeto" />
+          <a href="https://github.com/Guilhermebsdourado/Landing-Page" target="_blank">
+            <img src="src/imagens/projeto2.png" alt="Nome do projeto" />
             <h3>Projeto 2</h3>
             <div class="informacoes-projeto">          
               <p>Lorem ipsum</p>
@@ -202,8 +228,8 @@
         </div>
 
         <div class="projeto">     
-          <a href="https://github.com">
-            <img src="https://via.placeholder.com/515X700" alt="Nome do projeto" />
+          <a href="https://github.com/Guilhermebsdourado/Desafio-do-Frontend-Mentor" target="_blank">
+            <img src="src/imagens/projeto3.png" alt="Nome do projeto" />
             <h3>Projeto 3</h3>
             <div class="informacoes-projeto">
               <p>Lorem ipsum</p>
@@ -222,6 +248,17 @@
             </div>
           </a>
         </div>
+
+        <div class="projeto">
+          <a href="https://github.com">
+            <img src="src/imagens/projeto3.png" alt="Nome do projeto" />
+            <h3>Projeto 5</h3>
+            <div class="informacoes-projeto">
+              <p>Lorem ipsum</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   </section>
@@ -230,11 +267,11 @@
     <div class="container">
       <h2>Me envie uma mensagem!</h2>
       <div class="redes-sociais">
-        <a href="#" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
-        <a href="#" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
-        <a href="#" class="outer-shadow"><i class="fab fa-github"></i></a>
-        <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a>
-      </div>
+            <a href="https://www.linkedin.com/in/guilherme-barbosa-33b900185/" target="_blank" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/5511969285896" target="_blank" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/Guilhermebsdourado" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/guilhermebarbosa911/" target="_blank" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+          </div>
     </div>
   </footer>
 </body>
