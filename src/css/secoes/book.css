@@ -1,0 +1,41 @@
+.button {
+    background-color: transparent;
+    color: grey;
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+    cursor: pointer;
+    margin: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.button:hover {
+    color: var(--cor-primaria);
+    font-size: 48px;
+}
+
+.certificados {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.certificados .certificado {
+    /* margin-top: 180px; */
+    max-width: 650px;
+    cursor: zoom-in;
+}
+
+.naoMostrar {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
+
+.opacidade {
+    opacity: 0;
+    pointer-events: none;
+}

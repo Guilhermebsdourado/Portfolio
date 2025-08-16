@@ -9,7 +9,7 @@
 
   <link rel="stylesheet" href="src/css/font-awesome.css" />
   <link rel="stylesheet" href="src/css/reset.css" />
-  
+
   <!-- Global -->
   <link rel="stylesheet" href="src/css/globais.css" />
   <link rel="stylesheet" href="src/css/variaveis.css" />
@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="src/css/secoes/home.css" />
   <link rel="stylesheet" href="src/css/secoes/sobre.css" />
   <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
-  <link rel="stylesheet" href="src/css/secoes/flipbook.css">
+  <link rel="stylesheet" href="src/css/secoes/book.css">
   <link rel="stylesheet" href="src/css/secoes/projetos.css" />
   <link rel="stylesheet" href="src/css/secoes/footer.css" />
 
@@ -42,6 +42,7 @@
           <ul>
             <li><a href="#sobre-mim">Sobre mim</a></li>
             <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#certificados">Certificados</a></li>
             <li><a href="#projetos">Meus projetos</a></li>
           </ul>
         </nav>
@@ -58,10 +59,14 @@
           <h2>Desenvolvedor Frontend</h2>
 
           <div class="redes-sociais">
-            <a href="https://www.linkedin.com/in/guilherme-barbosa-33b900185/" target="_blank" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://wa.me/5511969285896" target="_blank" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://github.com/Guilhermebsdourado" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
-            <a href="https://www.instagram.com/guilhermebarbosa911/" target="_blank" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/guilherme-barbosa-33b900185/" target="_blank" class="outer-shadow"><i
+                class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/5511969285896" target="_blank" class="outer-shadow"><i
+                class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/Guilhermebsdourado" target="_blank" class="outer-shadow"><i
+                class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/guilhermebarbosa911/" target="_blank" class="outer-shadow"><i
+                class="fab fa-instagram"></i></a>
           </div>
         </div>
 
@@ -90,11 +95,14 @@
           <p>
             <strong>Olá! Me chamo Guilherme Barbosa e sou um desenvolvedor frontend em
               formação!</strong>
-              Gosto MUITO da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
+            Gosto MUITO da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas
+            habilidades.
           </p>
 
           <p>
-           Estou sempre me desafiando com novos projetos e participando de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já aprendi. 😁
+            Estou sempre me desafiando com novos projetos e participando de comunidades de programação para buscar
+            feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já
+            aprendi. 😁
           </p>
 
           <p>
@@ -102,7 +110,8 @@
           </p>
 
           <div class="botoes">
-            <a target="_blank" href="/src/arquivos/cv.pdf" class="botao outer-shadow">Veja meu CV</a>
+            <button target="_blank" href="/src/arquivos/cv.pdf" class="botao outer-shadow"><span>Veja meu CV</span>
+            </button>
           </div>
         </div>
       </div>
@@ -171,30 +180,61 @@
     </div>
   </section>
 
-  <section class="flipBook">
-    <button id="prev-btn" class="button">
-      <i class="fas fa-arrow-circle-left"></i>
-    </button>
-
-    <div id="book" class="book">
-      <div id="p1" class="paper">
-        <div class="front">
-          <div id="f1" class="front-content">
-            <h1>Front 1</h1>
-          </div>
-        </div>
-        <div class="back">
-          <div id="b1" class="back-content">
-            <h1>Back 1</h1>
-          </div>
-        </div>
+  <!-- certificados -->
+  <div id="certificados">
+    <div class="row">
+      <div class="section-title">
+        <h2>Certificados</h2>
       </div>
     </div>
+    <section class="certificados">
 
-    <button id="next-btn" class="button">
-      <i class="fas fa-arrow-circle-right"></i>
-    </button>
-  </section>
+      <button id="voltar-btn" class="button opacidade">
+        <i class="fas fa-arrow-circle-left"></i>
+      </button>
+
+      <ul class="certificado">
+        <li class="imagem mostrar">
+          <a href="https://cursos.alura.com.br/certificate/39dd707e-43b3-4de1-a7f9-0f63e9cdd31f?lang=pt_BR"
+            target="_blank">
+            <img src="src/imagens/certificados/certificado1.png" alt="Certificado">
+          </a>
+        </li>
+
+        <li class="imagem naoMostrar">
+          <a href="https://cursos.alura.com.br/certificate/fe0f4e53-e4ed-4240-a055-777b5b804e8d?lang=pt_BR"
+            target="_blank">
+            <img src="src/imagens/certificados/certificado2.png" alt="Certificado">
+          </a>
+        </li>
+
+        <li class="imagem naoMostrar">
+          <a href="https://cursos.alura.com.br/certificate/a0f19657-3ff0-4ad9-90a0-1a4c0de08ae4?lang=pt_BR"
+            target="_blank">
+            <img src="src/imagens/certificados/certificado3.png" alt="Certificado">
+          </a>
+        </li>
+
+        <li class="imagem naoMostrar">
+          <a href="https://cursos.alura.com.br/certificate/c413cd5c-032f-4a38-9a2d-d44aa914981d?lang=pt_BR"
+            target="_blank">
+            <img src="src/imagens/certificados/certificado4.png" alt="Certificado">
+          </a>
+        </li>
+
+        <li class="imagem naoMostrar">
+          <a href="https://cursos.alura.com.br/certificate/db525c0a-85cc-4458-9612-df362e535484?lang=pt_BR"
+            target="_blank">
+            <img src="src/imagens/certificados/certificado5.png" alt="Certificado">
+          </a>
+        </li>
+      </ul>
+
+      <button id="next-btn" class="button">
+        <i class="fas fa-arrow-circle-right"></i>
+      </button>
+    </section>
+  </div>
 
   <section class="projetos section" id="projetos">
     <div class="container">
@@ -205,29 +245,29 @@
       </div>
 
       <div class="container-projetos">
-        <div class="projeto">        
+        <div class="projeto">
           <a href="https://github.com/Guilhermebsdourado/Novo-Landing-Page" target="_blank">
             <img src="src/imagens/projeto1.png" alt="Nome do projeto" />
             <h3>Projeto 1</h3>
-            <div class="informacoes-projeto">          
+            <div class="informacoes-projeto">
               <p>Projeto feito usando HTML, CSS e JavaScript</p>
               <p>🔗 Ver no GitHub Pages</p>
-            </div>     
+            </div>
           </a>
         </div>
 
-        <div class="projeto">        
+        <div class="projeto">
           <a href="https://github.com/Guilhermebsdourado/Landing-Page" target="_blank">
             <img src="src/imagens/projeto2.png" alt="Nome do projeto" />
             <h3>Projeto 2</h3>
-            <div class="informacoes-projeto">          
+            <div class="informacoes-projeto">
               <p>Lorem ipsum</p>
               <p>🔗 Ver no GitHub Pages</p>
-            </div>      
-          </a>          
+            </div>
+          </a>
         </div>
 
-        <div class="projeto">     
+        <div class="projeto">
           <a href="https://github.com/Guilhermebsdourado/Desafio-do-Frontend-Mentor" target="_blank">
             <img src="src/imagens/projeto3.png" alt="Nome do projeto" />
             <h3>Projeto 3</h3>
@@ -235,7 +275,7 @@
               <p>Lorem ipsum</p>
               <p>🔗 Ver no GitHub Pages</p>
             </div>
-          </a>   
+          </a>
         </div>
 
         <div class="projeto">
@@ -267,13 +307,18 @@
     <div class="container">
       <h2>Me envie uma mensagem!</h2>
       <div class="redes-sociais">
-            <a href="https://www.linkedin.com/in/guilherme-barbosa-33b900185/" target="_blank" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://wa.me/5511969285896" target="_blank" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
-            <a href="https://github.com/Guilhermebsdourado" target="_blank" class="outer-shadow"><i class="fab fa-github"></i></a>
-            <a href="https://www.instagram.com/guilhermebarbosa911/" target="_blank" class="outer-shadow"><i class="fab fa-instagram"></i></a>
-          </div>
+        <a href="https://www.linkedin.com/in/guilherme-barbosa-33b900185/" target="_blank" class="outer-shadow"><i
+            class="fab fa-linkedin-in"></i></a>
+        <a href="https://wa.me/5511969285896" target="_blank" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://github.com/Guilhermebsdourado" target="_blank" class="outer-shadow"><i
+            class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/guilhermebarbosa911/" target="_blank" class="outer-shadow"><i
+            class="fab fa-instagram"></i></a>
+      </div>
     </div>
   </footer>
+
+  <script src="src/js/book.js"></script>
 </body>
 
 </html>
