@@ -9,7 +9,12 @@
 
 .habilidades .container-habilidades .informacoes{
     max-width: 350px;
-    padding: 40px 20px;    
+    max-height: 400px;
+    padding: 40px 20px;
+    border: solid 1px var(--cor-fundo-cinza-claro);
+    margin: 10px;
+    border-radius: 30px;
+    transform-style: preserve-3d;
 }
 
 .habilidades .container-habilidades .informacoes p,
@@ -19,12 +24,14 @@
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
     -webkit-transition: all .3s ease;
+    transform-style: preserve-3d;
 }
 
 .habilidades .container-habilidades .informacoes:hover p,
 .habilidades .container-habilidades .informacoes:hover h3,
 .habilidades .container-habilidades .informacoes:hover .logo i{
     color: var(--cor-primaria);
+    transform: translate3d(0,0,50px);
 }
 
 .habilidades .container-habilidades .informacoes h3 {
