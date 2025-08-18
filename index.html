@@ -17,12 +17,13 @@
 
   <!-- Global -->
   <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/secoes/fantasma.css">
   <link rel="stylesheet" href="src/css/variaveis.css" />
   <link rel="stylesheet" href="src/css/secoes/header.css" />
   <link rel="stylesheet" href="src/css/secoes/home.css" />
   <link rel="stylesheet" href="src/css/secoes/sobre.css" />
   <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
-  <link rel="stylesheet" href="src/css/secoes/book.css">
+  <link rel="stylesheet" href="src/css/secoes/certificados.css">
   <link rel="stylesheet" href="src/css/secoes/projetos.css" />
   <link rel="stylesheet" href="src/css/secoes/footer.css" />
 
@@ -34,7 +35,14 @@
     <div class="container">
       <div class="row justify-content-between alinhar-itens-no-centro">
         <a href="#">
-          <h1 class="logo">GB</h1>
+          <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+          </div>
+
+
         </a>
         <nav>
           <input id="menu-hamburguer" type="checkbox" />
@@ -82,6 +90,7 @@
         </div>
       </div>
     </div>
+
   </section>
   <section class="sobre-mim section" id="sobre-mim">
     <div class="container">
@@ -285,7 +294,7 @@
         </div>
 
         <div class="projeto">
-          <a href="https://github.com/Guilhermebsdourado/Venda-de-Cartas">
+          <a href="https://github.com/Guilhermebsdourado/Venda-de-Cartas" target="_blank">
             <img src="src/imagens/fotosProjetos/projeto4.png" alt="Nome do projeto" />
             <h3>Projeto 4</h3>
             <div class="informacoes-projeto">
@@ -326,6 +335,7 @@
 
   <script src="src/js/certificados.js"></script>
   <script src="src/js/3d.js"></script>
+  <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.48/build/spline-viewer.js"></script> 
 </body>
 
 </html>

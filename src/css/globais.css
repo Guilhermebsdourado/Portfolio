@@ -9,7 +9,7 @@ html {
   }
   
   body {
-    background-color: var(--cor-fundo-cinza-escuro);
+    background: url(../imagens/6229869.jpg)no-repeat center top/ contain var(--cor-fundo-cinza-escuro);
     font-family: var(--fonte-primaria);
     font-size: var(--fonte-normal);
   }
@@ -104,4 +104,3 @@ html {
   position: relative;
   z-index: 1; 
 }
-  
