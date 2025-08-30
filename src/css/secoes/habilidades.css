@@ -9,12 +9,13 @@
 
 .habilidades .container-habilidades .informacoes{
     max-width: 350px;
-    max-height: 400px;
+    max-height: 450px;
     padding: 40px 20px;
     border: solid 3px var(--cor-fundo-cinza-claro);
     margin: 10px;
     border-radius: 30px;
     transform-style: preserve-3d;
+    overflow: hidden;
 }
 
 .habilidades .container-habilidades .informacoes p,
